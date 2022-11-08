@@ -1,0 +1,248 @@
+
+@font-face {
+    font-family: "lato";
+    src: url(fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: "latoBold";
+    src: url(fonts/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: "spartan";
+    src: url(fonts/Spartan-Regular.ttf);
+}
+@font-face {
+    font-family: "spartanBold";
+    src: url(fonts/Spartan-Bold.ttf);
+}
+
+$primary:#f25412;
+$blue:#4f5d77;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: lato;
+    box-sizing: border-box;
+}
+.btn-primary{
+    background-color: #fde1bd;
+    color: $primary;
+    border: none;
+    padding: 13px 30px;
+    font-family: spartanBold;
+    font-size: 17px;
+    transition: .5s;
+    &:hover{
+        background-color: #fde1bd !important;
+        color: $primary !important;
+        transform: translateY(-5px);
+    }
+}
+.btn-secondary{
+    background-color: #eeeeee;
+    color: #5f5f5f;
+    border: none;
+    padding: 13px 30px;
+    font-family: spartanBold;
+    font-size: 17px;
+    transition: .5s;
+
+    &:hover{
+        background-color: #fde1bd !important;
+        color: $primary !important;
+        transform: translateY(-5px);
+
+    }
+}
+.text-primary{
+    color: $primary !important;
+}
+.bg-primary{
+    background-color: $primary !important;
+}
+.text-blue{
+    color: $blue !important;
+}
+a{
+    text-decoration: none;
+}
+header{
+    .nav-top{
+        background-color: #f4f4d8;
+    }
+    
+    .input-search{
+        background-color: #f5f5f5;
+        padding: 14px 20px;
+    }
+    .nav_3{
+        margin-bottom: 30px;
+        z-index: 10;
+    }
+    .nav-ico{
+        width: 18px;
+        height: 18px;
+        span{
+        font-size: 10px;
+    
+        }
+    }
+    .nav-link{
+        font-family: latoBold;
+        font-size: 20px;
+        
+    }
+    .hero{
+        margin-top: 100px;
+    }
+    .slide-title{
+        font-size: 52px;
+        font-family: spartanBold;
+
+    }
+}
+//-------------------------------------------     categorie   ------------------------------------------------------------
+
+.categorie{
+    margin-top: 100px;
+    .categorie_container{
+        transition: .3s;
+        &:hover{
+            transform: translateY(-5px);
+        }
+        h6{
+            padding: 10px;
+            font-family: spartanBold;
+            font-size: 13px;
+        }
+        .feature-1{
+            background-color: #fddde4;
+        }
+        .feature-2{
+            background-color: #d1e8f2;
+        }
+        .feature-3{
+            background-color: #cdebbc;
+        }
+        .feature-4{
+            background-color: #cdd4f8;
+        }
+        .feature-5{
+            background-color: #f6dbf6;
+        }
+        .feature-6{
+            background-color: #fff2e5;
+        }
+    }
+    
+}
+
+//-------------------------------------------     product   ------------------------------------------------------------
+
+.product{
+    margin: 50px 0;
+    .view{
+        border-bottom: 3px solid #cce7d0;
+        padding-bottom: 5px;
+        &:hover .bi-chevron-double-right::before{
+            transform: translateX(5px) ;
+            transition: .5s;
+        }
+    }
+    .btn-shop{
+        width: 55px;
+        height: 55px;
+        background-color: #e8f6ea;
+        bottom: 30px;
+        right: 10px;
+        transition: .5s;      
+        cursor: pointer;
+        &:hover{
+            background-color: $primary;  
+            transform: translatey(-5px) ;
+            
+        }
+        &:hover .bi-bag-plus::before{
+            color: white;
+        }
+
+    }
+    .card{
+
+        &:hover{
+            box-shadow: 0px 0px 20px rgb(219, 255, 225);
+        }
+        h6,h5{
+            cursor: pointer;
+            transition: .3s;
+            &:hover{
+                color: $primary !important;
+            }
+        }
+        img{
+            cursor: pointer;
+
+
+        }
+        .product-img{
+            overflow: hidden;
+            .img-2{
+                background-image: url(images/product-1-2.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                opacity:0;
+                transition: 1s;
+
+            }
+            .img-3{
+                background-image: url(images/product-2-2.jpg) !important;              
+            }
+            .img-4{
+                background-image: url(images/product-3-2.jpg) !important;              
+            }
+            .img-5{
+                background-image: url(images/product-4-2.jpg) !important;              
+            }
+        }
+        
+        &:hover .img-2{
+            opacity: 1;
+            transform: scale(105%);
+
+        }
+        .etiquette{
+            width: 60px;
+            height: 30px;
+            background-color: #ff75a0;
+            top: 10px;
+            left: 10px;
+        }
+        .img-2{
+            .div-icon{
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .product-icon{
+                background-color: #e8f6ea;
+                width: 50px;
+                height: 50px;
+                box-shadow: 0px 0px 25px rgb(205, 205, 205);
+                cursor: pointer;
+                transition: .5s;
+                &:hover{
+                    background-color: $primary;
+                    transform: translateY(-5px);
+                }  
+                &:hover .bi{
+                    color: white !important;
+                }             
+            }
+        }
+        
+    }
+
+}
