@@ -25,7 +25,7 @@
   background-color: #fde1bd;
   color: #f25412;
   border: none;
-  padding: 13px 30px;
+  padding: 13px 25px;
   font-family: spartanBold;
   font-size: 17px;
   transition: 0.5s;
@@ -36,11 +36,28 @@
   transform: translateY(-5px);
 }
 
+.my-btn {
+  background-color: #f25412;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-family: spartanBold;
+  font-size: 17px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+.my-btn .bi-arrow-right {
+  transition: 0.5s;
+}
+.my-btn:hover .bi-arrow-right {
+  padding-left: 10px;
+}
+
 .btn-secondary {
   background-color: #eeeeee;
   color: #5f5f5f;
   border: none;
-  padding: 13px 30px;
+  padding: 13px 25px;
   font-family: spartanBold;
   font-size: 17px;
   transition: 0.5s;
@@ -67,6 +84,15 @@ a {
   text-decoration: none;
 }
 
+.tooltip .tooltip-inner {
+  background-color: #f25412;
+  font-size: 12px;
+}
+
+.tooltip .tooltip-arrow::before {
+  border-top-color: #f25412 !important;
+}
+
 header .nav-top {
   background-color: #f4f4d8;
 }
@@ -76,7 +102,7 @@ header .input-search {
 }
 header .nav_3 {
   margin-bottom: 30px;
-  z-index: 10;
+  z-index: 99;
 }
 header .nav-ico {
   width: 18px;
@@ -109,7 +135,7 @@ header .slide-title {
 .categorie .categorie_container h6 {
   padding: 10px;
   font-family: spartanBold;
-  font-size: 13px;
+  font-size: 12.5px;
 }
 .categorie .categorie_container .feature-1 {
   background-color: #fddde4;
@@ -131,7 +157,8 @@ header .slide-title {
 }
 
 .product {
-  margin: 50px 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .product .view {
   border-bottom: 3px solid #cce7d0;
@@ -158,7 +185,7 @@ header .slide-title {
   color: white;
 }
 .product .card:hover {
-  box-shadow: 0px 0px 20px rgb(219, 255, 225);
+  box-shadow: 0px 0px 25px rgb(219, 255, 225);
 }
 .product .card h6, .product .card h5 {
   cursor: pointer;
@@ -181,24 +208,45 @@ header .slide-title {
   transition: 1s;
 }
 .product .card .product-img .img-3 {
-  background-image: url(images/product-2-2.jpg) !important;
+  background-image: url(images/product-2-2.jpg);
 }
 .product .card .product-img .img-4 {
-  background-image: url(images/product-3-2.jpg) !important;
+  background-image: url(images/product-3-2.jpg);
 }
 .product .card .product-img .img-5 {
-  background-image: url(images/product-4-2.jpg) !important;
+  background-image: url(images/product-4-2.jpg);
+}
+.product .card .product-img .img-6 {
+  background-image: url(images/product-5-2.jpg);
+}
+.product .card .product-img .img-7 {
+  background-image: url(images/product-6-2.jpg);
+}
+.product .card .product-img .img-8 {
+  background-image: url(images/product-7-2.jpg);
+}
+.product .card .product-img .img-9 {
+  background-image: url(images/product-8-2.jpg);
 }
 .product .card:hover .img-2 {
   opacity: 1;
   transform: scale(105%);
 }
 .product .card .etiquette {
-  width: 60px;
+  padding: 2px 10px 0px;
   height: 30px;
   background-color: #ff75a0;
   top: 10px;
   left: 10px;
+}
+.product .card .etiquette-2 {
+  background-color: #99bbad;
+}
+.product .card .etiquette-3 {
+  background-color: #ffab73;
+}
+.product .card .etiquette-4 {
+  background-color: #a1cae2;
 }
 .product .card .img-2 .div-icon {
   top: 50%;
@@ -207,9 +255,9 @@ header .slide-title {
 }
 .product .card .img-2 .product-icon {
   background-color: #e8f6ea;
-  width: 50px;
-  height: 50px;
-  box-shadow: 0px 0px 25px rgb(205, 205, 205);
+  width: 40px;
+  height: 40px;
+  box-shadow: 0px 0px 5px rgb(203, 203, 203);
   cursor: pointer;
   transition: 0.5s;
 }
@@ -219,6 +267,57 @@ header .slide-title {
 }
 .product .card .img-2 .product-icon:hover .bi {
   color: white !important;
+}
+
+.pub {
+  background-image: url(images/banner-4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 320px;
+  margin-bottom: 50px;
+  padding-top: 80px;
+}
+.pub h2 {
+  font-size: 40px;
+  line-height: 1.3;
+}
+.pub button {
+  font-family: lato;
+}
+@media screen and (max-width: 576px) {
+  .pub {
+    padding-top: 40px;
+  }
+}
+.pub h2 {
+  font-family: latoBold;
+}
+.pub h4 {
+  transition: 0.5s;
+}
+.pub:hover h4 {
+  transform: translateX(10px);
+}
+
+.categorie-popular {
+  margin-bottom: 50px;
+}
+.categorie-popular .card a {
+  transition: 0.3s;
+}
+.categorie-popular .card:hover a {
+  color: #f25412 !important;
+}
+.categorie-popular .card .product-img {
+  overflow: hidden;
+  cursor: pointer;
+}
+.categorie-popular .card .product-img .img-1 {
+  transition: 0.5s;
+}
+.categorie-popular .card .product-img:hover .img-1 {
+  opacity: 1;
+  transform: scale(105%);
 }
 
 /*# sourceMappingURL=style.css.map */
