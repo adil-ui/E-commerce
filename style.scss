@@ -98,6 +98,7 @@ a{
     border-top-color: $primary !important;
 }
 //-----------------------------------------------------------   header   ---------------------------------------------------------
+
 header{
     .nav-top{
         background-color: #f4f4d8;
@@ -133,7 +134,8 @@ header{
 
     }
 }
-//-------------------------------------------     categorie   ------------------------------------------------------------
+
+//--------------------------------------------------------     categorie   ------------------------------------------------------------
 
 .categorie{
     margin-top: 100px;
@@ -169,7 +171,7 @@ header{
     
 }
 
-//-------------------------------------------     product   ------------------------------------------------------------
+//---------------------------------------------------------     product   ------------------------------------------------------------
 
 .product{
     margin-top: 50px;
@@ -300,7 +302,7 @@ header{
 
 }
 
-//-------------------------------------------     pub   ------------------------------------------------------------
+//-----------------------------------------------------------     pub   ------------------------------------------------------------
 
 .pub{
     background-image: url(images/banner-4.png);
@@ -331,7 +333,7 @@ header{
     }
 }
 
-//-------------------------------------     categorie popular   ------------------------------------------------------------
+//-----------------------------------------------------     categorie popular   ------------------------------------------------------------
 
 .categorie-popular{
     margin-bottom: 50px;
@@ -354,10 +356,214 @@ header{
                 transform: scale(105%);
     
             }          
+        }      
+    }
+}
+
+//-----------------------------------------------------------     pub   ------------------------------------------------------------
+.publicite{
+
+    .pub-1{
+       
+        margin-bottom: 50px;
+        h6{
+            margin-top: 30px;
+        }
+        h5{
+            font-family: latoBold;
+            line-height: 1.3;
+        }
+        a{
+            font-family: lato;
+            .bi{
+                transition: .5s;
+            }
+            &:hover .bi{
+                padding-left: 5px;
+            }
+        }
+        h5{
+        transition: .5s;
+        }
+        .pub-text{
+            &:hover h5{
+                transform: translateX(10px);
+            }
         }
         
-       
+    }
+}
+
+//-------------------------------------------------------     new arrivals  ------------------------------------------------------------
+
+.new-arrivals{
+    h3{
+        font-family: latoBold;
+    }
+    .view{
+        border-bottom: 3px solid #cce7d0;
+        padding-bottom: 5px;
+        &:hover .bi-chevron-double-right::before{
+            transform: translateX(5px) ;
+            transition: .5s;
+        }
+    }
+    .btn-shop{
+        width: 55px;
+        height: 55px;
+        background-color: #e8f6ea;
+        bottom: 30px;
+        right: 10px;
+        transition: .5s;      
+        cursor: pointer;
+        &:hover{
+            background-color: $primary;  
+            transform: translatey(-5px) ;
+            
+        }
+        &:hover .bi-bag-plus::before{
+            color: white;
+        }
+
+    }
+    .card{
+        transition: .5s;
+        &:hover{
+            transform:  translateY(-8px);
+        }
+        h6,h5{
+            cursor: pointer;
+            transition: .3s;
+            &:hover{
+                color: $primary !important;
+            }
+        }
+        img{
+            cursor: pointer;
+
+
+        }
+        .product-img{
+            overflow: hidden;
+            .img-2{
+                background-image: url(images/product-1-2.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                opacity:0;
+                transition: 1s;
+
+            }
+            .img-3{
+                background-image: url(images/product-2-2.jpg);              
+            }
+            .img-4{
+                background-image: url(images/product-3-2.jpg);              
+            }
+            .img-5{
+                background-image: url(images/product-4-2.jpg);              
+            }
+            .img-6{
+                background-image: url(images/product-5-2.jpg);              
+            }
+            .img-7{
+                background-image: url(images/product-6-2.jpg);              
+            }
+            .img-8{
+                background-image: url(images/product-7-2.jpg);              
+            }
+            .img-9{
+                background-image: url(images/product-8-2.jpg);              
+            }
+            
+        }
         
+        &:hover .img-2{
+            opacity: 1;
+            transform: scale(105%);
+
+        }
+        .etiquette{
+            padding: 0px 8px 0px;
+            height: 25px;
+            background-color: #ff75a0;
+            top: 5px;
+            left: 5px;
+            p{
+                font-size: 15px;
+            }
+            
+        }
+        .etiquette-2 {
+            background-color: #99bbad;
+        }
+        .etiquette-3 {
+            background-color: #ffab73;
+        }
+        .etiquette-4 {
+            background-color: #a1cae2;
+        }
+        .img-2{
+            .div-icon{
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .product-icon{
+                background-color: #e8f6ea;
+                width: 30px;
+                height: 30px;
+                box-shadow: 0px 0px 5px rgb(203, 203, 203);
+                cursor: pointer;
+                transition: .5s;
+                .bi{
+                    font-size: 14px;
+                }
+                &:hover{
+                    background-color: $primary;
+                    transform: translateY(-5px);
+                }  
+                &:hover .bi{
+                    color: white !important;
+                }             
+            }
+        }
         
     }
+
+}
+
+//------------------------------------------------------     featured-brands   ------------------------------------------------------------
+
+.featured-brands{
+    margin-bottom: 50px;   
+    img{
+        opacity: 50%;
+        transition: .5s;
+        &:hover{
+            opacity: 100%;
+        }
+    }
+}
+//------------------------------------------------------     Newsletter   ------------------------------------------------------------
+
+.newsletter{
+    background-color: #f4f4d8;
+    h4 img{
+        width: 40px;
+    }
+    input{
+        padding: 14px;
+        box-shadow: none;
+        outline: none;
+        &:hover{
+            box-shadow: none;
+        }
+    }
+    button{
+        transition: .5s;
+        &:hover{
+            background-color: $primary !important;
+        }
+    }
+    
 }
