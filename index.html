@@ -41,16 +41,54 @@
               <div class="collapse navbar-collapse p-0 m-0" id="navbarSupportedContent"> 
                 <form class="w-75 mx-auto" role="search">
                   <input class="form-control input-search rounded-5 border-0 " type="search" placeholder="Search for items" aria-label="Search" >
-                </form>               
+                </form>   
               </div>          
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row justify-content-between">              
                 <li class="nav-item me-2 position-relative">
                   <a class="nav-link " aria-current="page" href="#"><img src="images/icon-heart.svg" alt="" width="28px"></a>
                   <div class="position-absolute top-0 bg-primary  rounded-circle end-0 text-light nav-ico d-flex justify-content-center align-items-center"><span>4</span></div>
                 </li>
-                <li class="nav-item position-relative">
+                <li class="nav-item position-relative panier-ico">
                   <a class="nav-link " aria-current="page" href="#"><img src="images/icon-cart.svg" alt="" width="28px"></a>
                   <div class="position-absolute top-0 bg-primary  rounded-circle end-0 text-light nav-ico d-flex justify-content-center align-items-center"><span>2</span></div>
+                  
+                  <div class="panier position-absolute top-100 end-0  rounded-2 shadow px-4 py-5 bg-white">
+                    
+                    <div class="d-flex justify-content-between  mb-4">
+                      <div>
+                        <a href="#"><img src="images/category-thumb-2.jpg" alt="img" class="img-fluid"></a>
+                      </div>
+                      <div>
+                        <a href="#"><h5 class="text-primary">Daisy Casual Bag</h5></a>
+                        <h6>1 x $800.00</h6>
+                      </div>
+                      <div><a href="#"><i class="bi bi-x fs-4 text-secondary"></i></a></i></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between  mb-4">
+                      <div>
+                        <a href="#"><img src="images/product-8-1.jpg" alt="img" class="img-fluid"></a>
+                      </div>                   
+                      <div>
+                        <a href="#"><h5 class="text-primary">Corduroy Shirts</h5></a>
+                        <h6>1 x $3200.00</h6>
+                      </div>
+                      <div><a href="#"><i class="bi bi-x fs-4 text-secondary"></i></a></i></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between  border-top border-secondary border-3 border-opacity-10 pt-4">
+                      <div>
+                        <h6 class="text-secondary fw-bolder mb-4">Total</h6>
+                        <button class="btn-primary-outline fw-bold">View cart</button>
+                      </div>
+                      <div>
+                        <h5 class="text-primary fw-bolder mb-3 text-end">$4000.00</h5>
+                        <button class="my-btn fw-bold">Checkout</button>
+                      </div>
+                    </div>
+                    
+                  </div>
+                 
                 </li>                  
               </ul> 
               <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,102 +96,146 @@
               </button>    
             </div>
             
-        </nav>
-
-        <nav class="navbar nav_3 shadow-sm navbar-expand-lg bg-white row  gx-0 position-sticky top-0  w-100 ">
-          <div class="container-fluid  col-xxl-10 col-xl-12 col-12 mx-auto">
-              
-            <div class="collapse navbar-collapse p-0 m-0 " id="navbarSupportedContent">                
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item me-4">
-                  <a class="nav-link text-primary fw-bold  pe-5" aria-current="page" href="#"><i class="bi bi-grid fs-5 text-dark"></i> Browse Categorie</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-primary fw-bold" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link  text-dark  fw-bold" aria-current="page" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link  text-dark  fw-bold" aria-current="page" href="#">Shop</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link  text-dark  fw-bold" aria-current="page" href="#">Our Collections</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link  text-dark  fw-bold" aria-current="page" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link  text-dark  fw-bold" aria-current="page" href="#">Contact</a>
-                </li>
-                <li class="nav-item me-5 ">
-                  <a class="nav-link  text-dark  fw-bolder" aria-current="page" href="#">My Account</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link  text-dark  fw-bolder " aria-current="page" href="#"><i class="bi bi-phone"></i> Toll Free <span class="text-primary">(+1) 0000-000-000</span></a>
-                </li>
-              </ul>  
-            </div>             
-          </div>
-          
-        </nav>
-
-<!-- -------------------------------------------     hero section   ---------------------------------------------------------------->
-      <section class="hero">
-        <div id="carouselExampleDark" class="carousel slide carousel-dark carousel-inner " data-bs-ride="carousel">
-          <div class="carousel-indicators ">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          </div>
-
-          <div class="carousel-inner row">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <div class="w-75  mx-auto d-flex flex-xxl-row flex-xl-column flex-column  align-items-center">
-
-                <div class="col-xxl-6 col-xl-12 col-12 ">
-                  <h3 class="text-dark fw-bolder ">Trade-in Offer</h3>
-                  <h2 class="text-dark fw-bolder slide-title my-3">Supper value deals</h2>
-                  <h2 class="text-primary fw-bolder slide-title">On all products</h2>
-                  <p class="text-secondary mb-5 fs-5">Save more with coupons & up to 70% off</p>
-                  <a href="" class="py-2 px-5 bg-primary text-decoration-none text-light rounded-1 ">Shop Now</a>
-                </div>
-
-                <div class="col-xxl-6 col-xl-12 col-12">
-                  <img src="images/slider-1.png" class="img-fluid" alt="silde-1">            
-                </div>
-              </div>
-
-            </div>
-            
-            <div class="carousel-item" data-bs-interval="10000">
-              <div class="w-75 h-100 mx-auto d-flex flex-xxl-row flex-xl-column flex-column align-items-center">
-                <div class="col-xxl-6 col-xl-12 col-12 ">
-                  <h3 class="text-dark fw-bolder ">Hot promotions</h3>
-                  <h2 class="text-dark fw-bolder slide-title my-3">Fashion Trending</h2>
-                  <h2 class="text-primary text-opacity-50 fw-bolder slide-title">Great Cllection</h2>
-                  <p class="text-secondary mb-5 fs-5">Save more with coupons & up to 20% off</p>
-                  <a href="#" class="py-2 px-5 bg-success text-decoration-none text-light rounded-1 ">Discover Now</a>
-                </div>
-                <div class="col-xxl-6 col-xl-12 col-12 ">
-                  <img src="images/slider-2.png" class="img-fluid" style="height: 360.5px !important" alt="...">
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </section>         
+        </nav>        
     </header>
-
+    <nav class="navbar nav_3 shadow-sm navbar-expand-lg bg-white row  gx-0 position-sticky top-0  w-100 ">
+      <div class="container-fluid  col-xxl-10 col-xl-12 col-12 mx-auto">
+          
+        <div class="collapse navbar-collapse p-0 m-0 " id="navbarSupportedContent">                
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item me-4">
+              <a class="nav-link text-primary fw-bold  me-4" aria-current="page" href="#"><i class="bi bi-grid fs-5 text-dark"></i> Browse Categorie</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-primary fw-bold" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-dark  fw-bold" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-dark  fw-bold" aria-current="page" href="#">Shop</a>
+            </li>
+            <li class="nav-item dropdown-center ">
+              <a class="nav-link dropdown-toggle text-dark  fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Collections</a>
+              <ul class="dropdown-menu p-4 pb-5 drop-menu">
+                <div class="d-flex justify-content-between">
+                  <ul class="navbar-nav d-flex flex-column me-5">
+                    <li class="nav-item mb-4"><a class="dropdown-item fs-5 text-primary" href="#">Women's Fashion</a></li>
+                    <li class="nav-item mb-2"><a class="dropdown-item" href="#">Dresses</a></li>
+                    <li class="nav-item mb-2"><a class="dropdown-item" href="#">Blouses & Shirts</a></li>
+                    <li class="nav-item mb-2"><a class="dropdown-item" href="#">Hoodies & Sweatshirts</a></li>
+                    <li class="nav-item mb-2"><a class="dropdown-item" href="#">Wedding  Dresses</a></li>
+                    <li class="nav-item mb-2"><a class="dropdown-item" href="#">Prom Dresses</a></li>
+                    <li class="nav-item mb-2"><a class="dropdown-item" href="#">Cosplay Costumes</a></li>
+                  </ul>
+                  <ul class="navbar-nav d-flex flex-column me-5">
+                    <li class="nav-item mb-4"><a class="dropdown-item fs-5 text-primary" href="#">Mens's Fashion</a></li>
+                    <li class="nav-item mb-2"><a class="dropdown-item" href="#">Jackets</a></li>
+                    <li class="nav-item mb-2"><a class="dropdown-item" href="#">casual faux Leather</a></li>
+                    <li class="nav-item mb-2"><a class="dropdown-item" href="#">Genuine Leather</a></li>
+                    <li class="nav-item mb-2"><a class="dropdown-item" href="#">casual Pants</a></li>
+                    <li class="nav-item mb-2"><a class="dropdown-item" href="#">Sweatpants</a></li>
+                    <li class="nav-item mb-2"><a class="dropdown-item" href="#">Harem Pants</a></li>
+                  </ul>
+                  <ul class="navbar-nav d-flex flex-column me-5">
+                      <li class="nav-item mb-4"><a class="dropdown-item fs-5 text-primary" href="#">Technology</a></li>
+                      <li class="nav-item mb-2"><a class="dropdown-item" href="#">gaming Laptop</a></li>
+                      <li class="nav-item mb-2"><a class="dropdown-item" href="#">Ultralism Laptops</a></li>
+                      <li class="nav-item mb-2"><a class="dropdown-item" href="#">Tablets</a></li>
+                      <li class="nav-item mb-2"><a class="dropdown-item" href="#">Laptop Accessoires</a></li>
+                      <li class="nav-item mb-2"><a class="dropdown-item" href="#">Tablet Accessoires</a></li>
+                  </ul>
+                  <div class="drop-img d-flex align-items-center justify-content-center">
+                    <img src="images/menu-banner.jpg" alt="">      
+                  </div>
+                </div>            
+              </ul>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link  text-dark  fw-bold" aria-current="page" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-dark  fw-bold" aria-current="page" href="#">Contact</a>
+            </li>
+            <li class="nav-item dropdown-center ">
+              <a class="nav-link dropdown-toggle text-dark fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">My Account</a>
+              <ul class="dropdown-menu py-3 pe-5">
+                  <ul class="navbar-nav d-flex flex-column me-5">
+                    <li class="nav-item mb-2 "><a class="dropdown-item px-4" href="#">Dashoard</a></li>
+                    <li class="nav-item mb-2 "><a class="dropdown-item px-4" href="#">Products</a></li>
+                    <li class="nav-item mb-2 "><a class="dropdown-item px-4" href="#">Categories</a></li>
+                    <li class="nav-item mb-2 "><a class="dropdown-item px-4" href="#">Coupons</a></li>
+                    <li class="nav-item mb-2 "><a class="dropdown-item px-4" href="#">Orders</a></li>
+                    <li class="nav-item mb-2 "><a class="dropdown-item px-4" href="#">Customers</a></li>
+                    <li class="nav-item mb-2 "><a class="dropdown-item px-4" href="#">Logout</a></li>
+                  </ul>           
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  text-dark  fw-bolder" aria-current="page" href="#"><i class="bi bi-phone"></i> Toll Free <span class="text-primary">(+1) 0000-000-000</span></a>
+            </li>
+          </ul>  
+        </div>             
+      </div>
+      
+    </nav>
+    
+<!-- -------------------------------------------     hero section   ---------------------------------------------------------------->
+    <section class="hero">
+    <div id="carouselExampleDark" class="carousel slide carousel-dark carousel-inner " data-bs-ride="carousel">
+      <div class="carousel-indicators ">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+    
+      <div class="carousel-inner row">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <div class="w-75  mx-auto d-flex flex-xxl-row flex-xl-column flex-column  align-items-center">
+    
+            <div class="col-xxl-6 col-xl-6   col-md-12 col-sm-12 col-12 mb-5 text-xxl-start text-xl-center text-sm-center text-center">
+              <h3 class="text-dark fw-bolder ">Trade-in Offer</h3>
+              <h2 class="text-dark fw-bolder slide-title my-3">Supper value deals</h2>
+              <h2 class="text-primary fw-bolder slide-title">On all products</h2>
+              <p class="text-secondary mb-4 fs-5">Save more with coupons & up to 70% off</p>
+              <a href="" class="py-3 px-5 bg-primary text-decoration-none text-light rounded-1 ">Shop Now</a>
+            </div>
+    
+            <div class="col-xxl-6 col-xl-6  col-md-12 col-sm-12 col-12 mx-auto">
+              <img src="images/slider-1.png" class="img-fluid" alt="silde-1">            
+            </div>
+          </div>
+    
+        </div>
+        
+        <div class="carousel-item" data-bs-interval="10000">
+          <div class="w-75 h-100 mx-auto d-flex flex-xxl-row flex-xl-column flex-column align-items-center">
+            <div class="col-xxl-6 col-xl-12 col-12 mb-5 text-xxl-start text-xl-center text-sm-center text-center">
+              <h3 class="text-dark fw-bolder ">Hot promotions</h3>
+              <h2 class="text-dark fw-bolder slide-title my-3">Fashion Trending</h2>
+              <h2 class="text-primary text-opacity-50 fw-bolder slide-title">Great Cllection</h2>
+              <p class="text-secondary mb-4 fs-5">Save more with coupons & up to 20% off</p>
+              <a href="#" class="py-3 px-5 bg-success text-decoration-none text-light rounded-1 ">Discover Now</a>
+            </div>
+            <div class="col-xxl-6 col-xl-12 col-12 mx-auto">
+              <img src="images/slider-2.png" class="img-fluid"  alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </section> 
 <!-- ------------------------------------------ --    Categorie   ---------------------------------------------------------------->
+
 
     <main class="row mx-auto">
       <section class="categorie col-xxl-10 col-xl-10 col-lg-12 col-12 mx-auto row">
@@ -237,12 +319,12 @@
                 <div class="card-body">
                     <h6 class="card-title text-secondary">Clothing</h6>
                     <h5 class="card-title fw-bolder">Colorful Pattern Shirts</h5>
-                    <p class="text-secondary">
-                      <i class="bi bi-star text-warning"></i>
-                      <i class="bi bi-star text-warning"></i>
-                      <i class="bi bi-star text-warning"></i>
-                      <i class="bi bi-star text-warning"></i>
-                      <i class="bi bi-star text-warning"></i>
+                    <p class="text-secondary my-star">
+                      <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                      <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                      <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                      <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                      <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>                     
                       <span class="ms-2">90%</span>
                     </p>
                     <h3 class="text-primary">$238.85 <span class="text-secondary text-decoration-line-through fs-5 ms-1">$245.8</span></h3>
@@ -268,13 +350,13 @@
               <div class="card-body">
                 <h6 class="card-title text-secondary">Clothing</h6>
                 <h5 class="card-title fw-bolder">Plain Color Pocket Shirts</h5>
-                <p class="text-secondary">
-                  <i class="bi bi-star text-warning"></i>
-                  <i class="bi bi-star text-warning"></i>
-                  <i class="bi bi-star text-warning"></i>
-                  <i class="bi bi-star text-warning"></i>
-                  <i class="bi bi-star text-warning"></i>
-                  <span class="ms-2">50%</span>
+                <p class="text-secondary my-star">
+                  <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                  <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                  <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                  <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                  <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>                     
+                  <span class="ms-2">90%</span>
                 </p>
                 <h3 class="text-primary">$138.85 <span class="text-secondary text-decoration-line-through fs-5 ms-1">$255.8</span></h3>
               </div>
@@ -299,13 +381,13 @@
                 <div class="card-body">
                   <h6 class="card-title text-secondary">Shirts</h6>
                   <h5 class="card-title fw-bolder">Vintage Floral Oil Shirts</h5>
-                  <p class="text-secondary">
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <span class="ms-2">95%</span>
+                  <p class="text-secondary my-star">
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>                     
+                    <span class="ms-2">90%</span>
                   </p>
                   <h3 class="text-primary">$338.85 <span class="text-secondary text-decoration-line-through fs-5 ms-1">$445.8</span></h3>
                 </div>
@@ -332,13 +414,13 @@
                 <div class="card-body">
                   <h6 class="card-title text-secondary">Clothing</h6>
                   <h5 class="card-title fw-bolder">Colorful Hawaiian Shirts</h5>
-                  <p class="text-secondary">
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <span class="ms-2">70%</span>
+                  <p class="text-secondary my-star">
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>                     
+                    <span class="ms-2">90%</span>
                   </p>
                   <h3 class="text-primary">$128.85 <span class="text-secondary text-decoration-line-through fs-5 ms-1">$235.8</span></h3>
                 </div>
@@ -362,13 +444,13 @@
                 <div class="card-body">
                   <h6 class="card-title text-secondary">Shirts</h6>
                   <h5 class="card-title fw-bolder">Flowers Sleeve Lapel Shirt</h5>
-                  <p class="text-secondary">
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <span class="ms-2">70%</span>
+                  <p class="text-secondary my-star">
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>                     
+                    <span class="ms-2">90%</span>
                   </p>
                   <h3 class="text-primary">$28.85 <span class="text-secondary text-decoration-line-through fs-5 ms-1">$45.8</span></h3>
                 </div>
@@ -392,13 +474,13 @@
                 <div class="card-body">
                   <h6 class="card-title text-secondary">Shirts</h6>
                   <h5 class="card-title fw-bolder">Ethnic Floral Casual Shirts</h5>
-                  <p class="text-secondary">
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <span class="ms-2">70%</span>
+                  <p class="text-secondary my-star">
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>                     
+                    <span class="ms-2">90%</span>
                   </p>
                   <h3 class="text-primary">$238.85 <span class="text-secondary text-decoration-line-through fs-5 ms-1">$245.8</span></h3>
                 </div>
@@ -451,13 +533,13 @@
                 <div class="card-body">
                   <h6 class="card-title text-secondary">Clothing</h6>
                   <h5 class="card-title fw-bolder">Mens Porcelain Shirt</h5>
-                  <p class="text-secondary">
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <span class="ms-2">70%</span>
+                  <p class="text-secondary my-star">
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>                     
+                    <span class="ms-2">90%</span>
                   </p>
                   <h3 class="text-primary">$238.85 <span class="text-secondary text-decoration-line-through fs-5 ms-1">$245.8</span></h3>
                 </div>
@@ -480,7 +562,7 @@
 <!-- ------------------------------------------    categorie popular   ---------------------------------------------------------------->
 
       <section class="categorie-popular col-xxl-10 col-xl-10 col-lg-12 col-12 mx-auto row">
-        <h3 class="fw-bolder mb-4"><span class="text-primary">Popular</span> Categories</h3>
+        <h3 class="fw-bolder mb-4 text-xl-start  text-lg-center  text-sm-center text-center "><span class="text-primary">Popular</span> Categories</h3>
         <div class="col-xxl-2 col-xl-3 col-md-4 col-sm-6 col-7 categorie_container mx-auto mb-2">
           <div class="card p-2 pb-0 border-success border-opacity-25 rounded-4">
             <div class="product-img rounded-4">
@@ -583,7 +665,7 @@
 
       <section class="new-arrivals col-xxl-10 col-lg-10 col-md-12 col-12 mx-auto row gx-0">       
         <div class="row  mt-4 mx-auto gx-0">
-          <h3 class="mb-3"><span class="text-primary fw-bolder ">New</span> Arrivals</h3>
+          <h3 class="mb-3 text-xl-start  text-lg-center  text-sm-center text-center"><span class="text-primary fw-bolder ">New</span> Arrivals</h3>
           <div class="col-xxl-2 col-xl-3 col-md-4 col-sm-6 col-7 mb-3 mx-auto">  
             <div class="card position-relative p-2 pb-0 rounded-4 border-0">
               <div class="position-relative product-img rounded-4">
@@ -599,12 +681,12 @@
               </div>           
               <div class="card-body text-center">
                   <h5 class="card-title fw-bolder">Colorful Pattern Shirts</h5>
-                  <p class="text-secondary">
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
+                  <p class="text-secondary my-star">
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>                     
                   </p>
                   <h5 class="text-primary fw-bolder">$238.85 <span class="text-secondary text-decoration-line-through fs-6 fw-normal">$245.8</span></h5>
               </div>
@@ -625,12 +707,12 @@
               </div>           
               <div class="card-body text-center">
                   <h5 class="card-title fw-bolder">Ethnic Floral Casual Shirts</h5>
-                  <p class="text-secondary">
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
+                  <p class="text-secondary my-star">
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>                     
                   </p>
                   <h5 class="text-primary fw-bolder">$138.85 <span class="text-secondary text-decoration-line-through fs-6 fw-normal">$185.8</span></h5>
               </div>
@@ -651,12 +733,12 @@
               </div>           
               <div class="card-body text-center">
                   <h5 class="card-title fw-bolder">Mens Porcelain Shirt</h5>
-                  <p class="text-secondary">
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
+                  <p class="text-secondary my-star">
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>                     
                   </p>
                   <h5 class="text-primary fw-bolder">$188.85 <span class="text-secondary text-decoration-line-through fs-6 fw-normal">$225.8</span></h5>
               </div>
@@ -676,12 +758,12 @@
               </div>           
               <div class="card-body text-center">
                   <h5 class="card-title fw-bolder">Vintage Floral Oil Shirts</h5>
-                  <p class="text-secondary">
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
+                  <p class="text-secondary my-star">
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>                     
                   </p>
                   <h5 class="text-primary fw-bolder">$338.85 <span class="text-secondary text-decoration-line-through fs-6 fw-normal">$395.8</span></h5>
               </div>
@@ -702,12 +784,12 @@
               </div>           
               <div class="card-body text-center">
                   <h5 class="card-title fw-bolder">Flowers Sleeve Lapel Shirt</h5>
-                  <p class="text-secondary">
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
+                  <p class="text-secondary my-star">
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>                     
                   </p>
                   <h5 class="text-primary fw-bolder">$98.85 <span class="text-secondary text-decoration-line-through fs-6 fw-normal">$135.8</span></h5>
               </div>
@@ -728,12 +810,12 @@
               </div>           
               <div class="card-body text-center">
                   <h5 class="card-title fw-bolder">Plain Color Pocket Shirts</h5>
-                  <p class="text-secondary">
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
-                    <i class="bi bi-star text-warning"></i>
+                  <p class="text-secondary my-star">
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>
+                    <div class="d-inline position-relative star-1"><i class="bi bi-star text-warning "></i><i class="bi bi-star-fill text-warning position-absolute  start-0"></i></div>                     
                   </p>
                   <h5 class="text-primary fw-bolder">$158.85 <span class="text-secondary text-decoration-line-through fs-6 fw-normal">$185.8</span></h5>
               </div>
@@ -748,7 +830,7 @@
       <section class="featured-brands col-xxl-10 col-lg-10 col-md-12 col-12 mx-auto row gx-0 mt-4">
             
         <div class="row  mt-4 mx-auto">
-          <h3 class="ms-2 mb-5"><span class="text-primary fw-bolder ">Featured</span> Brands</h3>
+          <h3 class="ms-2 mb-5 text-xl-start  text-lg-center  text-sm-center text-center"><span class="text-primary fw-bolder ">Featured</span> Brands</h3>
 
           <div class="col-xxl-2 col-xl-3 col-md-4 col-sm-6 col-7 mb-3 mx-auto">  
             <img src="images/brand-1.png" alt="brand" class="img-fluid">
@@ -775,10 +857,11 @@
         </div>
       </section>
 
-<!-- ------------------------------------------ --    Newsletter   ------------------------------------------------------------------>
+<!-- ------------------------------------------ --    Newsletter   -------------------------------------------------------------------->
+
         <section class="newsletter row mx-auto mb-5 ">
           <div class="row col-xxl-10 col-xl-11 col-md-12 col-12 py-4 mx-auto  d-flex align-items-center">
-            <div class="col-xxl-3 col-xl-4 col-lg-7 col-sm-8 col-10 mx-auto text-center">
+            <div class="col-xxl-3 col-xl-4 col-lg-7 col-sm-8 col-10 mx-auto text-xxl-start text-xl-start text-lg-center text-sm-center">
               <h4 class="fw-bolder"><img src="images/icon-email.svg" alt="email" class="img-fluid"> Sign up to Newsletter</h4>
             </div>
             <div class="col-xxl-4 col-xl-4 col-lg-7 col-sm-8 col-10 mx-auto my-3 text-center">
@@ -794,6 +877,69 @@
         </section>
     </main>
 
+<!-- ------------------------------------------ ----    footer   ----------------------------------------------------------------------->
+
+    <footer class="row gx-0">
+
+      <section class="footer col-xxl-10 col-xl-11  col-sm-12 mx-auto row gx mb-5">
+        <div class="footer-contact col-xxl-4 col-lg-6 cold-md-7 col-sm-8 col-12 mb-4">
+          <ul>
+            <li><a href=""><img src="images/logo.png" alt="logo" class="img-fluid mb-4 w-50"></a></li>
+            <li class="text-secondary fw-bolder text-opacity-75 mb-2">Contact</li>
+            <li class="text-secondary mb-2"><h6 class="d-inline fw-bolder">Adresse: </h6>562 Wellington Road</li>
+            <li class="text-secondary mb-2"><h6 class="d-inline fw-bolder">Phone: </h6>+1 0000-000-000</li>
+            <li class="text-secondary mb-2"><h6 class="d-inline fw-bolder">Email: </h6>contact@surfsidemedia.in</li>
+            <li class="text-secondary mb-2 fw-bolder text-opacity-75 mt-4">Follow Us</li>   
+            <li >
+              <a href="#" class="text-secondary"><i class="bi bi-facebook fs-5 me-3"></i></a>
+              <a href="#" class="text-secondary"><i class="bi bi-twitter fs-5 me-3"></i></a>
+              <a href="#" class="text-secondary"><i class="bi bi-instagram fs-5 me-3"></i></a>
+              <a href="#" class="text-secondary"><i class="bi bi-pinterest fs-5 me-3"></i></a>
+              <a href="#" class="text-secondary"><i class="bi bi-youtube fs-5 me-3"></i></a>            
+            </li>      
+          </ul>
+        </div>
+        <div class="footer-about col-xxl-2 col-lg-6 cold-md-7 col-sm-8 col-12 mb-4">
+          <h4 class="mb-4 text-dark text-opacity-75 fw-bolder ">About</h4>
+          <ul>
+            <li class="mb-3"><a href="#" class="text-secondary">About Us</a></li>
+            <li class="mb-3"><a href="#" class="text-secondary">Delivery Information</a></li>
+            <li class="mb-3"><a href="#" class="text-secondary">Privacy Policy</a></li>
+            <li class="mb-3"><a href="#" class="text-secondary">Terms & Conditions</a></li>
+            <li class="mb-3"><a href="#" class="text-secondary">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-account col-xxl-2 col-lg-6 cold-md-7 col-sm-8 col-12 mb-4">
+          <h4 class="mb-4 text-dark text-opacity-75 fw-bolder ">My Account</h4>
+          <ul>
+            <li class="mb-3"><a href="#" class="text-secondary">My Account</a></li>
+            <li class="mb-3"><a href="#" class="text-secondary">View Cart</a></li>
+            <li class="mb-3"><a href="#" class="text-secondary">My Wishlist</a></li>
+            <li class="mb-3"><a href="#" class="text-secondary">Track My Order</a></li>
+            <li class="mb-3"><a href="#" class="text-secondary">Order</a></li>
+          </ul>
+        </div>
+        <div class="footer-app col-xxl-4 col-lg-6 cold-md-7 col-sm-8 col-12 mb-4">
+          <h4 class="mb-4 text-dark text-opacity-75 fw-bolder">Install App</h4>
+          <p class="text-secondary mb-4">From App Store or Google Play</p><div></div>
+          <a href="#" class="store"><img src="images/app-store.jpg" alt="app" class="img-fluid border border-2 border-primary  rounded-2"></a>
+          <a href="#" class="play"><img src="images/google-play.jpg" alt="app" class="img-fluid border border-2 border-secondary border-opacity-25 rounded-2"></a>
+          <p class="text-secondary mt-5 mb-4">Secured Payment Gateways</p>
+          <img src="images/payment-method.png" alt="payment" class="img-fluid">
+        </div>
+      </section>
+
+      <section class="copyright col-10 mx-auto row  border-top border-secondary  border-opacity-10 pt-4 pb-2 gx-4">
+        <div class="col-6">
+          <a href="#" class="text-primary">Privacy Policy  </a><span class="text-secondary mx-2">|</span>
+          <a href="#" class="text-primary">Terms & Conditions </a>
+        </div>
+        <div class="col-6 text-end">
+          <p class="text-secondary">&copy;<span class="text-primary fw-bolder"> SurfsideMedia</span>  All rights reserved</p>
+        </div>
+      </section>
+
+    </footer>
 
 
 
