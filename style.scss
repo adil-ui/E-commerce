@@ -177,6 +177,26 @@ header{
 }
 .hero{
     margin-top: 100px;
+    .btn-shop{
+        background-image: url(images/btn-brush-bg-3.png);
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50%;
+        @media screen and (max-width:576px) {
+            width: 75%;
+        }
+    }
+    .btn-disco{
+        background-image: url(images/btn-brush-bg-2.png);
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 50%;
+        @media screen and (max-width:576px) {
+            width: 75%;
+        }
+    }
 }
 .slide-title{
     font-size: 52px;
@@ -355,16 +375,18 @@ header{
 
 }
 
-.star-1{
-    cursor: pointer;
-    &:hover .bi-star{
+.my-star:hover {
+    .bi-star-fill {
+        opacity: 1;
+        cursor: pointer;
+    }
+    .star-1:hover  ~ .star-1 .bi-star-fill {
         opacity: 0;
     }
-    &:hover .bi-star-fill{
+    .star-1:hover  ~ .star-1 .bi-star {
         opacity: 1;
     }
 }
-
 
 //-----------------------------------------------------------     pub   ------------------------------------------------------------
 
